@@ -1,0 +1,105 @@
+
+
+body {
+    width: 80vh;
+    margin: 20px auto;
+    font-family: 'Press Start 2P', cursive;
+  
+  
+    background: rgba(252, 252, 252, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border: 1px solid rgba(252, 252, 252, 1);
+}
+
+
+.wrapper {
+   
+    max-height: 80vh;
+    padding: 0 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+  
+    align-items: center;
+}
+
+.grid {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    
+
+    background: rgba(75, 143, 63, 0.247);
+    
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgb(231, 236, 255);
+}
+
+h1 {
+    text-shadow:5px 12px 19px #10c70b;
+    color:#45be42; 
+
+}
+
+h2 {
+
+    font-size: 17px;
+}
+
+button {
+
+background: rgba(49, 87, 42, 0.35);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.3px);
+-webkit-backdrop-filter: blur(5.3px);
+border: 1px solid rgba(45, 115, 31, 1);
+
+margin-top: 15px;
+padding: 15px 35px;
+font-size: smaller;
+}
+
+
+button:hover {
+
+
+background: rgba(45, 115, 31, 0.781);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.3px);
+-webkit-backdrop-filter: blur(5.3px);
+border: 1px solid rgba(45, 115, 31, 1);
+
+transition:  0.3s;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+   
+    background: rgba(45, 115, 31, 0.71);
+    
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+
+
+   
+}
+
+
+
+.apple {
+    text-align: center;
+}
